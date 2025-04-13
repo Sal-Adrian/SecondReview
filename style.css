@@ -1,0 +1,17 @@
+body { 
+    background: #FDFAF6; }
+
+h2 {
+    display: inline-block !important; }
+
+hr {
+    color: black;
+    height: 3px; }
+
+audio {
+    margin: 0 auto; }
+
+.card { 
+    background: #E4EFE7; 
+    border: 4px solid #E4EFE7;
+    border-radius: 25px; }
