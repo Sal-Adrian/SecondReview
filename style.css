@@ -11,6 +11,9 @@ hr {
 audio {
     margin: 0 auto; }
 
+img {
+    max-width: 90% !important; }
+
 .card { 
     background: #E4EFE7; 
     border: 4px solid #E4EFE7;
