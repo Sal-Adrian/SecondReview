@@ -3,7 +3,9 @@ body {
 
 h2 {
     display: inline-block !important; 
-    line-height: 1.6;}
+    line-height: 1.6;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; }
 
 hr {
     color: black;
