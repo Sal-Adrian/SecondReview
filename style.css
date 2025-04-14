@@ -2,7 +2,8 @@ body {
     background: #FDFAF6; }
 
 h2 {
-    display: inline-block !important; }
+    display: inline-block !important; 
+    line-height: 1.6;}
 
 hr {
     color: black;
