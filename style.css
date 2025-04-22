@@ -18,10 +18,21 @@ img {
     max-height: 250px !important;
     max-width: 90% !important; }
 
+iframe {
+    height: 250px !important;
+    max-height: 250px;
+    width: 500px;
+    max-width: 500px; }
+
 .card { 
     background: #E4EFE7; 
     border: 4px solid #E4EFE7;
     border-radius: 25px; }
+
+.vidContainer {
+    display : flex;
+    align-items : center;
+    justify-content: center; }
 
 .mx-6 {
     margin-right: 6rem;
