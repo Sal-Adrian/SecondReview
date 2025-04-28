@@ -24,7 +24,18 @@ const valuesCards = [
         deceptively simple, this song has a deep emotional resonance that I don't hear talked about 
         enough. If more folks heard this track, The Beatles might finally get the recognition they 
         deserve. Criminally underrated.`,
-    time:'2:10 - 2:11' }];
+    time:'2:10 - 2:11' },
+
+    { name:'Paranoid Android', 
+    nameTag:'paranoid_android', 
+    rating:'448,854/641,220',
+    URL:'fHiGbolFFGw',
+    review:`Ah, Paranoid Android... takes me back, though not to any one place—<em>slurps 
+        wine</em>—more like a feeling. It’s the kind of song that reminds me what it was like hearing 
+        Bohemian Rhapsody for the first time: strange, beautiful, and a bit unsettling, like the world 
+        was shifting under your feet. They don’t make many songs like that anymore, and maybe they 
+        never did.`,
+    time:'2:30 - 2:31' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
