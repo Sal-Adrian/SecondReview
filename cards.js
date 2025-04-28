@@ -7,10 +7,17 @@ const valuesCards = [
     review:`The first time I heard Bohemian Rhapsody, it completely blew me away. The mix of 
         styles was amazing and unlike anything I'd ever heard before. On the second listen, it was still 
         cool, but the shock factor was gone, and parts of it felt a bit long :/`,
-    time:'3:56 - 3:57' }];
+    time:'3:56 - 3:57' },
+    { name:'Billie Jean', 
+    nameTag:'billie_jean', 
+    rating:'0.7/1',
+    URL:'Zi_XLOBDo_Y',
+    review:`Yee Hee. Shamone. Aoow. OOW!`,
+    time:'1:50 - 1:51' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
+<!-- ${valuesCard.name} -->
     <div class="card mb-5">
         <div class="row my-2">   
           <div class="col-6">
