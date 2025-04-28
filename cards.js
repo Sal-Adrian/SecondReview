@@ -8,12 +8,23 @@ const valuesCards = [
         styles was amazing and unlike anything I'd ever heard before. On the second listen, it was still 
         cool, but the shock factor was gone, and parts of it felt a bit long :/`,
     time:'3:56 - 3:57' },
+
     { name:'Billie Jean', 
     nameTag:'billie_jean', 
     rating:'0.7/1',
     URL:'Zi_XLOBDo_Y',
     review:`Yee Hee. Shamone. Aoow. OOW!`,
-    time:'1:50 - 1:51' }];
+    time:'1:50 - 1:51' },
+
+    { name:'Hey Jude', 
+    nameTag:'hey_jude', 
+    rating:'4.9/7',
+    URL:'A_MjCqQoLLA',
+    review:`Hey Jude is a rare gem from this obscure band out of Liverpool. While being 
+        deceptively simple, this song has a deep emotional resonance that I don't hear talked about 
+        enough. If more folks heard this track, The Beatles might finally get the recognition they 
+        deserve. Criminally underrated.`,
+    time:'2:10 - 2:11' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
