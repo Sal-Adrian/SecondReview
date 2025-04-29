@@ -35,7 +35,14 @@ const valuesCards = [
         Bohemian Rhapsody for the first time: strange, beautiful, and a bit unsettling, like the world 
         was shifting under your feet. They don’t make many songs like that anymore, and maybe they 
         never did.`,
-    time:'2:30 - 2:31' }];
+    time:'2:30 - 2:31' },
+  
+  { name:'Come To Daddy',
+    nameTag:'come_to_daddy', 
+    rating:'(56/8)/(110/11)',
+    URL:'TZ827lkktYs',
+    review:``,
+    time:'' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
