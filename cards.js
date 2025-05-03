@@ -42,7 +42,7 @@ const valuesCards = [
     rating:'(56/8)/(110/11)',
     URL:'TZ827lkktYs',
     review:``,
-    time:'' }];
+    time:'4:16 - 4:17' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
