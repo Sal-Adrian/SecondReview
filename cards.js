@@ -41,7 +41,10 @@ const valuesCards = [
     nameTag:'come_to_daddy', 
     rating:'(56/8)/(110/11)',
     URL:'TZ827lkktYs',
-    review:``,
+    review:`Oh what's that? You never heard of Afex Twins? Yeah, didn't think so. You need
+    to have a certain level of... experience before you can even begin to even phathom what is 
+    being heard. I, for instance, have malignant tinnitus that perfectly harmonizes with the 
+    screeches throughout the song. Of course, Mr. Twins knew this when crafting this mastapeice.`,
     time:'4:16 - 4:17' }];
 
 function returnCards(valuesCards) {
