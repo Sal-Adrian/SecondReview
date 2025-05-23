@@ -45,7 +45,14 @@ const valuesCards = [
     to have a certain level of... experience before you can even begin to even phathom what is 
     being heard. I, for instance, have malignant tinnitus that perfectly harmonizes with the 
     screeches throughout the song. Of course, Mr. Twins knew this when crafting this mastapeice.`,
-    time:'4:16 - 4:17' }];
+    time:'4:16 - 4:17' },
+  
+  { name:'Sneaky Snitch',
+    nameTag:'sneaky_snitch', 
+    rating:'x<sup>2</sup> = 1.4x - 0.49',
+    URL:'a3mxLL7nX1E',
+    review:``,
+    time:'' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
