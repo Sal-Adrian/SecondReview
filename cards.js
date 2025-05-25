@@ -52,7 +52,7 @@ const valuesCards = [
     rating:'x<sup>2</sup> = 1.4x - 0.49',
     URL:'a3mxLL7nX1E',
     review:``,
-    time:'' }];
+    time:'0:28 - 0:29' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
