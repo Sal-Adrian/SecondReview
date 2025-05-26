@@ -51,7 +51,11 @@ const valuesCards = [
     nameTag:'sneaky_snitch', 
     rating:'x<sup>2</sup> = 1.4x - 0.49',
     URL:'a3mxLL7nX1E',
-    review:``,
+    review:`┻┳|
+        <br>┳┻| 
+        <br>┻┳| •.•)
+        <br>┳┻|⊂ﾉ
+        <br>┻┳|`,
     time:'0:28 - 0:29' }];
 
 function returnCards(valuesCards) {
