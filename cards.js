@@ -56,7 +56,17 @@ const valuesCards = [
         <br>┻┳| •.•)
         <br>┳┻|⊂ﾉ
         <br>┻┳|`,
-    time:'0:28 - 0:29' }];
+    time:'0:28 - 0:29' },
+  
+  { name:'Schoenberg: Op.25',
+    nameTag:'schoenberg', 
+    rating:'log<sub>12</sub>((3 * 4) / 12<sup>3/10</sup>)',
+    URL:'bQHR_Z8XVvI',
+    review:`Schoenberg's Suite for Piano, Op. 25 is like being kissed by an algorithm. It's 
+    clinical, complicated, and oddly arousing. It's the soundtrack to a dream where the 
+    laws of tonality are repealed by a jury of sentient triangles. Truth is a twelve-tone 
+    row, and Schoenberg's the Minotaur that guards it.`,
+    time:'12:40 - 12:41' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
