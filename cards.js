@@ -66,7 +66,14 @@ const valuesCards = [
     clinical, complicated, and oddly arousing. It's the soundtrack to a dream where the 
     laws of tonality are repealed by a jury of sentient triangles. Truth is a twelve-tone 
     row, and Schoenberg's the Minotaur that guards it.`,
-    time:'12:40 - 12:41' }];
+    time:'12:40 - 12:41' },
+  
+  { name:'4\'33',
+    nameTag:'cage', 
+    rating:'303.1 / 433',
+    URL:'JTEFKFiXSx4',
+    review:`<br><br><br><br><br><br>`,
+    time:'3:03 - 3:04' }];
 
 function returnCards(valuesCards) {
     return valuesCards.map(valuesCard => `
