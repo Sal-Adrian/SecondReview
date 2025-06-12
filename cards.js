@@ -49,7 +49,7 @@ const valuesCards = [
   
   { name:'Sneaky Snitch',
     nameTag:'sneaky_snitch', 
-    rating:'x<sup>2</sup> = 1.4x - 0.49',
+    rating:'1.4x - 0.49 = x<sup>2</sup>',
     URL:'a3mxLL7nX1E',
     review:`┻┳|
         <br>┳┻| 
@@ -70,7 +70,7 @@ const valuesCards = [
   
   { name:'4\'33',
     nameTag:'cage', 
-    rating:'303.1 / 433',
+    rating:'303.1/433',
     URL:'JTEFKFiXSx4',
     review:`<br><br><br><br><br><br>`,
     time:'3:03 - 3:04' }];
@@ -80,11 +80,11 @@ function returnCards(valuesCards) {
 <!-- ${valuesCard.name} -->
     <div class="card mb-5">
         <div class="row my-2">   
-          <div class="col-6">
+          <div class="col-5 ms-5">
             <img src="src/images/${valuesCard.nameTag}.jpg" class="img-fluid float-center mx-3">
           </div>
-          <h2 class="col align-middle mx-5 my-3">${valuesCard.name} <br> <img src="src/images/star.svg" width="75px"> &nbsp;  ${valuesCard.rating}</h2> 
-          <button class="btn col align-middle mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#${valuesCard.nameTag}" aria-expanded="false" aria-controls="collapseExample">
+          <h2 class="col-5 align-middle my-3">${valuesCard.name} <br> <img src="src/images/star.svg" width="75px"> &nbsp;  ${valuesCard.rating}</h2> 
+          <button class="btn col align-middle" type="button" data-bs-toggle="collapse" data-bs-target="#${valuesCard.nameTag}" aria-expanded="false" aria-controls="collapseExample">
             <img src="src/images/arrow.svg" width="125px">
           </button>
         </div>
